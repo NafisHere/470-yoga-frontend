@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const useAxiosFetch = () => {
   const axiosInstance = axios.create({
-    baseURL: 'https://four70-yoga-web-server.onrender.com', // TODO : Replace with base URL
+    baseURL: 'https://470-yoga-web-server.onrender.com', // TODO : Replace with base URL
   });
 
   useEffect(() => {

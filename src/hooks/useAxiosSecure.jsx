@@ -8,7 +8,7 @@ const useAxiosSecure = () => {
   const navigate = useNavigate();
 
   const axiosSecure = axios.create({
-    baseURL: 'https://four70-yoga-web-server.onrender.com',
+    baseURL: 'https://470-yoga-web-server.onrender.com',
   });
 
   useEffect(() => {

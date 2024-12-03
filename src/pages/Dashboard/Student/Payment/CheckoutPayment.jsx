@@ -3,7 +3,7 @@ import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import useAxiosSecure from '../../../../hooks/useAxiosSecure';
 import { useUser } from '../../../../hooks/useUser';
 const CheckoutPayment = ({ price , cartItm }) => {
-    const URL =`https://four70-yoga-web-server.onrender.com/payment-info?${cartItm&&`classId=${cartItm}`}`
+    const URL =`https://470-yoga-web-server.onrender.com/payment-info?${cartItm&&`classId=${cartItm}`}`
     console.log(URL)
     const stripe = useStripe();
     const elements = useElements();
